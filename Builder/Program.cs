@@ -91,6 +91,8 @@ class WoodHouseBuilder : IHouseBuilder
         return this;
     }
     public House Build() => House;
+
+    public void Reset() => House = new House();
 }
 
 class StoneHouseBuilder : IHouseBuilder
