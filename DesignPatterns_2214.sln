@@ -13,11 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Sing
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{E6552849-95AE-4816-912E-892A43BE5E2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{EC1439EC-A3C4-4C29-8628-447DF6BC120E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{EC1439EC-A3C4-4C29-8628-447DF6BC120E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{88A37190-FA2F-471E-9F3D-9575AEDEFFE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Bridge\Bridge.csproj", "{88A37190-FA2F-471E-9F3D-9575AEDEFFE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{1523C88F-D333-4258-98AD-04B857C60E42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{1523C88F-D333-4258-98AD-04B857C60E42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{FBD0AC30-2B30-4364-9347-DD028A0D5161}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{27FA8DAA-A763-4025-8FE1-37017C7CED3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{1523C88F-D333-4258-98AD-04B857C60E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1523C88F-D333-4258-98AD-04B857C60E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1523C88F-D333-4258-98AD-04B857C60E42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBD0AC30-2B30-4364-9347-DD028A0D5161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD0AC30-2B30-4364-9347-DD028A0D5161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD0AC30-2B30-4364-9347-DD028A0D5161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD0AC30-2B30-4364-9347-DD028A0D5161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27FA8DAA-A763-4025-8FE1-37017C7CED3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27FA8DAA-A763-4025-8FE1-37017C7CED3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27FA8DAA-A763-4025-8FE1-37017C7CED3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27FA8DAA-A763-4025-8FE1-37017C7CED3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
