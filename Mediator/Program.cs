@@ -69,7 +69,7 @@ abstract class Airplane
 
     public virtual void HandleMessage(Airplane airplane, string message)
     {
-        Console.WriteLine($"{Code} kodlu teyyareden {airplane.Code} kodlu teyyareye gelen mesaj: {message}");
+        Console.WriteLine($"{Code} kodlu teyyareden {airplane.Code} kodlu teyyareye : {message}");
     }
 
     public abstract void LandingPermission();
