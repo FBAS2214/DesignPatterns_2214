@@ -94,15 +94,15 @@ class Program
     {
         Store product = new("Iphone 14", 3100, false);
 
-        IObserver customer1 = new CustomerObserver("Leyla Gocayeva", product);
-        IObserver customer2 = new CustomerObserver("Nihat Rustamli", product);
-        IObserver customer3 = new CustomerObserver("Kenan Nebizade", product);
-        IObserver customer4 = new CustomerObserver("Ferman Esedov", product);
+        new CustomerObserver("Leyla Gocayeva", product);
+        new CustomerObserver("Nihat Rustamli", product);
+        new CustomerObserver("Kenan Nebizade", product);
+        new CustomerObserver("Ferman Esedov", product);
         IObserver customer5 = new CustomerObserver("Elgun Salmanov", product);
 
         Console.WriteLine("\n\n");
 
-        product.RemoveSubscriber(customer4);
+        product.RemoveSubscriber(customer5);
 
         product.IsAvailable = true;
     }
