@@ -63,9 +63,9 @@ class Receiver
 
 class Invoker
 {
-    private ICommand _onStart;
+    private ICommand? _onStart = null;
 
-    private ICommand _onFinish;
+    private ICommand? _onFinish = null;
 
 
     public void SetOnStart(ICommand command)
