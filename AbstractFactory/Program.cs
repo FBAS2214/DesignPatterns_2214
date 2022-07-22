@@ -1,4 +1,6 @@
-﻿namespace AbstractFactory;
+﻿using AbstractFactory.Abstract;
+
+namespace AbstractFactory;
 
 
 class Program
